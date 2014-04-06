@@ -389,12 +389,13 @@ animation-delay: 0.4s;
 ul {
   list-style: none;
   padding:0;
-  font-size:0.8em;
 }
 
 ul a, ul a:active, ul a:visited {
   color: #888;
+  border:none;
 }
+
 ul a:hover {
   color: #46A7A2;
 }
