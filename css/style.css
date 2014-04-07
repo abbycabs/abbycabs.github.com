@@ -215,6 +215,7 @@ h3 {
 #title h1 {
   font-size: 3em;
   color:#46A7A2;
+  white-space: nowrap;
 }
 
 #title h1 span {
@@ -448,6 +449,9 @@ ul a:hover {
       width:50%;
       margin-right:1em;
       float:left;
+    }
+    ul {
+      font-size: 0.8em;
     }
 }
 
