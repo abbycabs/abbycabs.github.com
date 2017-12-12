@@ -59,7 +59,7 @@ body { margin: 0; font-size: 110%; line-height: 1.4; }
 
 body, button, input, select, textarea { font-family: sans-serif; color: #222; }
 
-/* 
+/*
  * These selection declarations have to be separate
  * No text-shadow: twitter.com/miketaylr/status/12228805301
  * Also: hot pink!
@@ -139,7 +139,7 @@ nav ul, nav ol { list-style: none; margin: 0; padding: 0; }
 img { border: 0; -ms-interpolation-mode: bicubic; }
 
 /*
- * Correct overflow displayed oddly in IE9 
+ * Correct overflow displayed oddly in IE9
  */
 
 svg:not(:root) {
@@ -150,7 +150,7 @@ svg:not(:root) {
 
 /* =============================================================================
    Primary styles
-   Author: 
+   Author:
    ========================================================================== */
 
 
@@ -165,7 +165,7 @@ svg:not(:root) {
    Print styles.
    Inlined to avoid required HTTP connection: www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
- 
+
 @media print {
   * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } /* Black prints faster: sanbeiji.com/archives/953 */
   a, a:visited { color: #999 !important; text-decoration: underline; }
@@ -197,7 +197,7 @@ a:hover {
   color: #607890;
 }
 
-#main {	
+#main {
 	margin:0 auto;
   max-width:1000px;
   font-family: 'Source Sans Pro','Helvetica','Avenir','Arial',sans-serif;
@@ -424,7 +424,7 @@ ul a:hover {
    ========================================================================== */
 
 
-@media screen and (min-width: 37.500em) { 
+@media screen and (min-width: 37.500em) {
   /* Style adjustments for viewports 600px and over go here */
   body .content {  font-size: 120%; line-height: 1.6; }
   #main { width:95%;}
@@ -437,7 +437,7 @@ ul a:hover {
     .side {
       float: left;
       height: 100%;
-      width: 200px;
+      width: 300px;
       text-align:center;
       padding: 30px 20px;
 
