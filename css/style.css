@@ -392,6 +392,8 @@ ul {
   padding:0;
 }
 
+ul.more { list-style: outside; margin-left: 1em;}
+
 ul a, ul a:active, ul a:visited {
   color: #888;
   border:none;
@@ -446,8 +448,8 @@ ul a:hover {
       display: block;
     }
     .articles {
-      width:50%;
-      margin-right:1em;
+      width:55%;
+      /*margin-right:1em;*/
       float:left;
     }
     ul {
