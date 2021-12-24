@@ -233,14 +233,8 @@ h3 {
 	opacity: 1;
 }
 
-a.fa {
+.media a {
   border: none;
-  color: grey;
-  font-size: 1.8em;
-}
-
-a.fa:hover {
-  color: #46A7A2;
 }
 
 #title h1 span:nth-child(1) {
@@ -388,15 +382,19 @@ animation-delay: 0.4s;
 }
 
 ul {
-  list-style: none;
   padding:0;
 }
 
-ul.more { list-style: outside; margin-left: 1em;}
+ul li {
+  list-style: outside;
+  margin-left: 1em;
+}
+
+/*ul.more { list-style: outside; margin-left: 1em;}*/
 
 ul a, ul a:active, ul a:visited {
   color: #888;
-  border:none;
+  /*border:none;*/
 }
 
 ul a:hover {
