@@ -114,7 +114,7 @@ small { font-size: 85%; }
 sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
 sup { top: -0.5em; }
 sub { bottom: -0.25em; }
-p {margin: 0 0 1em; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto;}
+p {margin: 0 0 1em; -webkit-hyphens: none; -moz-hyphens: none; hyphens: none;}
 h1 {font-size: 1.8em; font-weight:bold;}
 
 
