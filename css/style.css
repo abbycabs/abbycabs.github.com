@@ -235,6 +235,10 @@ h3 {
 
 .media a {
   border: none;
+  color: #888;
+}
+.media a:hover{
+  color:#46A7A2;
 }
 
 #title h1 span:nth-child(1) {
@@ -393,6 +397,7 @@ ul li {
 
 .side {
   padding: 0 20px 20px;
+  text-align:center;
 }
 
 .content {
@@ -428,9 +433,7 @@ footer {
       float: left;
       height: 100%;
       width: 300px;
-      text-align:center;
       padding: 30px 20px;
-
     }
     #face img {
       display:block;
